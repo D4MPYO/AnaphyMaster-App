@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- When avatar is selected -->
+    <item android:state_selected="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/red" /> <!-- Solid color when selected -->
+            <padding
+                android:left="4dp"
+                android:top="4dp"
+                android:right="4dp"
+                android:bottom="4dp" />
+        </shape>
+    </item>
+
+    <!-- Default state (not selected) -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@android:color/transparent" /> <!-- Transparent when not selected -->
+        </shape>
+    </item>
+</selector>

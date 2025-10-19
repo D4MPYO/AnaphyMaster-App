@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/loglog"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/loglog"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AnaphyMaster"
+        tools:targetApi="31">
+
+        <!-- SplashScreenActivity is the launcher activity -->
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- MainActivity for app navigation -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <!-- Choosing_Avatar activity for first-time setup -->
+        <activity
+            android:name=".Choosing_Avatar"
+            android:exported="true" />
+
+        <activity
+            android:name=".WelcomeScreen"/>
+
+        <activity
+            android:name=".Edit_Choosing_Avatar"/>
+
+        <activity android:name=".AboutApp"/>
+        <activity android:name=".AboutTermsCondition"/>
+        <activity android:name=".AboutPrivacy"/>
+        <activity android:name=".AboutRateApp"/>
+
+        <activity android:name=".ChallengeModeActivity"/>
+        <activity android:name=".Practice_Mode"/>
+        <activity android:name=".Show_All_Topics"/>
+        <activity android:name=".SelectCategoryPractice"/>
+        <activity android:name=".SelectAdvanceChallenge"/>
+        <activity android:name=".SelectEasyChallenge"/>
+
+
+        <activity android:name=".QuizIntro_Category1"/>
+        <activity android:name=".QuizIntro_Category2"/>
+        <activity android:name=".QuizIntro_Category3"/>
+        <activity android:name=".QuizIntro_Category4"/>
+        <activity android:name=".QuizIntro_Category5"/>
+        <activity android:name=".QuizIntro_Category6"/>
+        <activity android:name=".QuizIntro_Category7"/>
+        <activity android:name=".QuizIntro_Category8"/>
+        <activity android:name=".QuizIntro_Category9"/>
+        <activity android:name=".QuizIntro_Category10"/>
+        <activity android:name=".QuizIntro_Category11"/>
+
+        <activity android:name=".ChallengeMode1"/>
+        <activity android:name=".ChallengeMode2"/>
+        <activity android:name=".ChallengeMode3"/>
+        <activity android:name=".ChallengeMode4"/>
+        <activity android:name=".ChallengeMode5"/>
+        <activity android:name=".ChallengeMode6"/>
+        <activity android:name=".ChallengeMode7"/>
+        <activity android:name=".ChallengeMode8"/>
+        <activity android:name=".ChallengeMode9"/>
+        <activity android:name=".ChallengeMode10"/>
+        <activity android:name=".ChallengeMode11"/>
+
+        <activity android:name="AdvanceChallengeMode1"/>
+        <activity android:name="AdvanceChallengeMode2"/>
+        <activity android:name="AdvanceChallengeMode3"/>
+        <activity android:name="AdvanceChallengeMode4"/>
+        <activity android:name="AdvanceChallengeMode5"/>
+        <activity android:name="AdvanceChallengeMode6"/>
+        <activity android:name="AdvanceChallengeMode7"/>
+        <activity android:name="AdvanceChallengeMode8"/>
+        <activity android:name="AdvanceChallengeMode9"/>
+        <activity android:name="AdvanceChallengeMode10"/>
+        <activity android:name="AdvanceChallengeMode11"/>
+
+
+        <activity android:name=".r_Easy_Quiz_Intro_Category1"/>
+        <activity android:name=".r_Easy_Quiz_Intro_Category2"/>
+        <activity android:name=".r_Easy_Quiz_Intro_Category3"/>
+        <activity android:name=".r_Easy_Quiz_Intro_Category4"/>
+        <activity android:name=".r_Easy_Quiz_Intro_Category5"/>
+        <activity android:name=".r_Easy_Quiz_Intro_Category6"/>
+        <activity android:name=".r_Easy_Quiz_Intro_Category7"/>
+        <activity android:name=".r_Easy_Quiz_Intro_Category8"/>
+        <activity android:name=".r_Easy_Quiz_Intro_Category9"/>
+        <activity android:name=".r_Easy_Quiz_Intro_Category10"/>
+        <activity android:name=".r_Easy_Quiz_Intro_Category11"/>
+
+        <activity android:name="r_Advance_Quiz_Intro_Category1"/>
+        <activity android:name="r_Advance_Quiz_Intro_Category2"/>
+        <activity android:name="r_Advance_Quiz_Intro_Category3"/>
+        <activity android:name="r_Advance_Quiz_Intro_Category4"/>
+        <activity android:name="r_Advance_Quiz_Intro_Category5"/>
+        <activity android:name="r_Advance_Quiz_Intro_Category6"/>
+        <activity android:name="r_Advance_Quiz_Intro_Category7"/>
+        <activity android:name="r_Advance_Quiz_Intro_Category8"/>
+        <activity android:name="r_Advance_Quiz_Intro_Category9"/>
+        <activity android:name="r_Advance_Quiz_Intro_Category10"/>
+        <activity android:name="r_Advance_Quiz_Intro_Category11"/>
+
+
+
+        <activity android:name=".Prac_1_Integumentary"/>
+        <activity android:name=".Prac_2_Cardio"/>
+        <activity android:name=".Prac_3_Skeletal"/>
+        <activity android:name=".Prac_4_Reproductive"/>
+        <activity android:name=".Prac_5_Respiratory"/>
+        <activity android:name=".Prac_6_Muscular"/>
+        <activity android:name=".Prac_7_Nervous"/>
+        <activity android:name=".Prac_8_Endocrine"/>
+        <activity android:name=".Prac_9_Lymphatic"/>
+        <activity android:name=".Prac_10_Digestive"/>
+        <activity android:name=".Prac_11_Urinary"/>
+
+        <activity android:name="TopocIntegumentary1"/>
+        <activity android:name="TopicCardiovascular2"/>
+        <activity android:name="TopicSkeletal3"/>
+        <activity android:name="TopicReproductive4"/>
+        <activity android:name=".TopicRespiratiry5"/>
+        <activity android:name=".TopicMuscular6"/>
+        <activity android:name="TopicNervous7"/>
+        <activity android:name="TopicEndocrine8"/>
+        <activity android:name="TopicLyhpmatic9"/>
+        <activity android:name="TopicDigestive10"/>
+        <activity android:name="TopicUrinary11"/>
+
+        <activity android:name=".Answer_Result"/>
+
+        <activity android:name="SelectDifficultyChallenge"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="CustomDialogTheme" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorAccent">#FF4081</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:textColorPrimary">#000000</item>
+    </style>
+
+
+</resources>

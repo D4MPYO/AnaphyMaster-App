@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cardview_gradient_background"
+    android:padding="16dp">
+
+    <!-- Fixed Back Button -->
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="36dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/ic_arrow_left"
+        android:contentDescription="Back" />
+
+    <!-- Scrollable Terms Content -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/backButton">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="16dp"
+                card_view:cardCornerRadius="16dp"
+                card_view:cardElevation="18dp"
+                card_view:cardBackgroundColor="#FAFAFA">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="24dp"
+                    android:background="@drawable/cardview_gradient_background">
+
+                <!-- Image inside CardView -->
+                <ImageView
+                    android:id="@+id/privacyImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="16dp"
+                    android:src="@drawable/privacy"
+                    android:contentDescription="Privacy Image" />
+
+                <!-- Title -->
+                <TextView
+                    android:id="@+id/privacyTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Privacy Policy"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- Subtitle -->
+                <TextView
+                    android:id="@+id/privacySubtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your Privacy Matters"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- Body Text -->
+                <TextView
+                    android:id="@+id/privacyBody"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="AnaphyMaster respects and protects your privacy. This policy outlines how we collect and use data:\n\n• Data Collection: We may collect basic usage data and app activity to improve user experience.\n\n• No Sensitive Data: We do not collect or store personal medical data.\n\n• Third-Party Services: Some features may involve third-party tools (like analytics), but your identity remains anonymous.\n\n• Data Protection: We implement standard security practices to ensure your data is safe.\n\nBy using the app, you consent to the data practices outlined here. We do not sell or share your information with third parties."
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:lineSpacingExtra="6dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

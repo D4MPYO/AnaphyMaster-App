@@ -1,0 +1,1295 @@
+<resources>
+    <string name="app_name">AnaphyMaster</string>
+
+    <string name="PracticeTimeAllowed">No Limit</string>
+    <string name="PracticeTotalItemQuestion">100 Questions</string>
+
+    <string name="ItemQuestionEasy">20 Questions</string>
+    <string name="TimerEasy">60s/Question</string>
+
+    <string name="AdvanceTotalItemQuestion">40 Questions</string>
+    <string name="AdvanceTimeAllowed">30s/Question</string>
+
+
+    <string name="IntegumentaryText">
+        <b>A. Skin Layers</b>\n
+        \n- Epidermis: Outermost, avascular layer of stratified squamous epithelium.\n
+        \n- Stratum corneum: Dead, keratinized cells; protects against abrasion, water loss, pathogens.\n
+        \n- Stratum basale: Deepest layer; cell division replaces skin cells.\n
+        \n- Stratum spinosum: Desmosomes provide strength.\n
+        \n- Stratum granulosum: Produces lipids for waterproofing.\n
+        \n- Stratum lucidum: Clear layer in thick skin (palms, soles); enhances water barrier.\n
+        \n- Nutrients diffuse from dermal blood vessels.\n
+        \n         - <b>Additional Info:</b> Epidermis regenerates every 30–60 days, vital for wound healing. Keratinocytes produce antimicrobial peptides (defensins) to fight infection.\n
+        \n- Dermis: Middle layer, dense irregular connective tissue.\n
+        \n- Papillary layer: Dermal papillae form fingerprints; aids nutrient exchange.\n
+        \n- Reticular layer: Collagen (tensile strength), elastic fibers (elasticity).\n
+        \n- Contains blood vessels, glands, sensory receptors.\n
+        \n         - <b>Additional Info:</b> Fibroblasts produce collagen/elastin for tissue repair. Dermal thickness varies (thinner in eyelids, thicker in soles).\n
+        \n- Hypodermis: Subcutaneous layer; adipose tissue for energy storage, insulation, cushioning.\n
+        \n         - <b>Additional Info:</b> Anchors skin to muscles/bones, hosts immune cells (macrophages), varies by region/gender (thicker in females).\n
+        \n
+        \n<b>B. Accessory Structures</b>\
+        \n- Hair:\n
+        \n- Shaft: Visible, dead; cortex sets color/texture (melanin).\n
+        \n- Root: In skin; hair matrix grows hair.\n
+        \n- Arrector pili muscle: Causes goosebumps.\n
+        \n- Cuticle: Protects shaft.\n
+        \n- Protects scalp, filters debris.\n
+        \n         - <b>Additional Info:</b> Hair cycles (anagen: growth, catagen: transition, telogen: rest) last months to years. Alopecia results from stress, hormones, genetics.\n
+        \n- Nails:\n
+        \n- Plate: Hard, keratinized; protects fingertips.\n
+        \n- Matrix: Growth area.\n
+        \n- Bed: Supports nail.\n
+        \n- Cuticle: Protects root; lunula: white crescent.\n
+        \n         - <b>Additional Info:</b> Nails grow ~3 mm/month; changes (clubbing, ridges) indicate systemic issues (hypoxia, malnutrition).\n
+        \n- Glands:\n
+        \n- Sebaceous: Sebum lubricates skin/hair.\n
+        \n- Eccrine sweat: Watery sweat for cooling.\n
+        \n- Apocrine sweat: Thicker sweat (armpits, groin), stress-related.\n
+        \n- Ceruminous: Earwax protects ear canal.\n
+        \n         - <b>Additional Info:</b> Sebum has antimicrobial properties. Sweat contains electrolytes; excessive loss causes dehydration, critical in burns.\n
+        \n
+        \n<b>C. Skin Cells</b>\n
+        \n- Keratinocytes: Most abundant; produce keratin for strength.\n
+        \n- Melanocytes: Melanin for UV protection, pigmentation.\n
+        \n- Langerhans cells: Immune surveillance, antigen presentation.\n
+        \n- Merkel cells: Light touch detection.\n
+        \n         - <b>Additional Info:</b> Keratinocytes undergo apoptosis in stratum corneum, forming a tough barrier. Melanocyte activity varies by genetics/UV exposure.\n
+        \n <b>D. Skin Functions</b>\n
+        \n- Protection:\n
+        \n- Keratin (abrasion), lipids (water loss), melanin (UV), barrier (pathogens).\n
+        \n         - <b>Additional Info:</b> Skin pH (4.5–5.5) creates an acidic mantle, inhibiting microbes. Sebum/sweat contribute.\n
+        \n- Thermoregulation: Sweat, blood vessels (dilate to release heat, constrict to conserve).\n
+        \n         - <b>Additional Info:</b> Shivering generates heat via hypodermal fat metabolism.\n
+        \n         - <b>Additional Info:</b> Receptors: Meissner’s corpuscles (light touch), Pacinian corpuscles (pressure/vibration), Merkel’s disks (sustained touch), Ruffini endings (stretch), free nerve endings (pain/temperature).\n
+        \n         - <b>Additional Info:</b> Pain avoids injury; altered sensation (numbness) may indicate nerve damage (e.g., diabetes).\n
+        \n- Vitamin D Synthesis: UVB converts 7-dehydrocholesterol to vitamin D3.\n
+        \n         - <b>Additional Info:</b> Vitamin D regulates calcium for bone health; deficiency causes rickets/osteomalacia.\n
+        \n- Energy Storage: Hypodermal fat.\n
+        \n         - <b>Additional Info:</b> Fat provides ~9 kcal/g, critical during illness.\n
+        \n
+        \n<b>E. Skin Conditions</b>\n
+        \n- Acne: Clogged pores (sebum, bacteria); pimples.\n
+        \n- Eczema: Itchy, red patches; allergy-related.\n
+        \n- Psoriasis: Autoimmune; rapid cell turnover, scaly plaques.\n
+        \n- Vitiligo: Autoimmune; melanocyte loss, white patches.\n
+        \n- Ringworm (Tinea corporis): Fungal; ring-shaped rash.\n
+        \n- Folliculitis: Bacterial; infected follicles.\n
+        \n- Actinic keratosis: Precancerous; scaly patches from sun exposure.\n
+        \n  <b>Additional Info:</b>
+        \n- Wound Healing: Phases: hemostasis (clotting), inflammation (immune response), proliferation (tissue repair), remodeling (scar formation). Delayed in diabetes/infection.\n
+        \n- Infections: MRSA can cause severe folliculitis/abscesses, requiring isolation.\n
+        \n
+        \n<b>F. Skin Cancers</b>\n
+        \n- Basal cell carcinoma: Stratum basale; common, pearly nodules.\n
+        \n- Squamous cell carcinoma: Squamous cells; scaly, red patches; may metastasize.\n
+        \n- Melanoma: Melanocytes; deadly, asymmetrical lesions.\n
+        \n  <b>Additional Info:</b>
+        \n- ABCDE Rule: Assess melanoma: Asymmetry, Border (irregular), Color (varied), Diameter (>6 mm), Evolving.\n
+        \n- Prevention: Sunscreen (SPF 30+), UV-protective clothing, no tanning beds.\n
+        \n
+        \n<b>G. Burns</b>\n
+        \n- First-degree: Epidermis; red, sore.\n
+        \n- Second-degree: Epidermis + part dermis; blisters, pain.\n
+        \n- Third-degree: Epidermis + entire dermis; white/charred, minimal pain.\n
+        \n- Fourth-degree: Extends to muscle/bone.\n
+        \n  <b>Additional Info:</b>
+        \n- Burn Assessment: Rule of Nines estimates burn area (arm = 9%).\n
+        \n- Nursing Care: Fluid resuscitation, infection prevention, pain management, grafts for deep burns.\n
+        \n
+        \n<b>H. Clinical and Physiological Notes</b>\n
+        \n- Aging: Loss of collagen/elastin causes wrinkles, sagging.\n
+        \n- Anchoring: Hemidesmosomes link epidermis to dermis.\n
+        \n- Enzymes: Transglutaminase cross-links keratin.\n
+        \n  <b>Additional Info:</b>
+        \n- Skin Barrier: Tight junctions, lipids, keratin form a selective barrier.\n
+        \n- Immune Functions: Skin hosts mast cells, T-cells; histamine drives allergic reactions (e.g., eczema).\n
+        \n- Diagnostic Tests:\n
+        \n- Skin biopsy: Diagnoses cancers, infections.\n
+        \n- Patch testing: Identifies eczema allergens.\n
+        \n- Wood’s lamp: Detects fungal infections (ringworm fluoresces).\n
+        \n
+        \n<b>2. High-Yield Facts</b>\n
+        \n- Layers: Epidermis (barrier), Dermis (strength), Hypodermis (fat).\n
+        \n- Epidermis: Basale (division), Spinosum (strength), Granulosum (lipids), Lucidum (thick skin), Corneum (protection).\n
+        \n- Cells: Keratinocytes (keratin), Melanocytes (melanin), Langerhans (immune), Merkel (touch).\n
+        \n- Glands: Sebaceous (sebum), Eccrine (cooling), Apocrine (stress), Ceruminous (earwax).\n
+        \n- Hair: Shaft (visible), Matrix (growth), Cortex (color), Cuticle (protection).\n
+        \n- Nails: Plate (hard), Matrix (growth), Bed (support), Cuticle (root), Lunula (crescent).\n
+        \n- Functions: Protection (keratin, melanin), Thermoregulation (sweat, vessels), Sensation (receptors), Vitamin D (UVB), Energy (fat).\n
+        \n- Receptors: Meissner’s (light touch), Pacinian (pressure), Merkel’s (touch), Ruffini (stretch), Free endings (pain/temp).\n
+        \n- Conditions: Acne (pores), Eczema (itchy), Psoriasis (scaly), Vitiligo (white), Ringworm (fungal), Folliculitis (bacterial), Actinic keratosis (precancerous).\n
+        \n- Cancers: Basal (common), Squamous (scaly), Melanoma (deadly).\n
+        \n- Burns: First (red), Second (blisters), Third (charred), Fourth (deep).\n
+        \n- Clinical: Acidic pH (4.5–5.5), wound healing phases, ABCDE for melanoma, Rule of Nines.\n
+        \n
+        \n<b>3. Nursing Considerations</b>\n
+        \n- Skin Assessment: Check color (cyanosis, jaundice), turgor (dehydration), lesions (ulcers, cancers). Document clearly.\n
+        \n- Wound Care: Sterile techniques, monitor infection (redness, pus), promote moist healing (hydrocolloid dressings).\n
+        \n- Burn Management: Fluid needs (Parkland formula), prevent hypothermia, assess pain.\n
+        \n- Infection Prevention: Hand hygiene, barrier precautions for MRSA/fungal infections.\n
+        \n- Patient Education: Sun protection, moisturizing for eczema, monitor moles (ABCDE).\n
+        \n- Cultural Sensitivity: Respect skin tone variations (erythema harder to detect in darker skin).\n
+    </string>
+
+
+    <string name="CardiovascularText">
+        <b>I. Overview</b>\n
+        \nThe cardiovascular system, also called the circulatory system, is responsible for transporting blood, nutrients, oxygen, carbon dioxide, hormones, and waste products throughout the body. It comprises the heart, blood vessels, and blood.\n
+        \n<b>I. Anatomy of the Cardiovascular System</b>\n
+        \n<b>A. The Heart</b>\n
+        \n<b>Location:</b> Thoracic cavity, between the lungs in the mediastinum.\n
+        \n<b>Size:</b> Approximately the size of a closed fist.\n
+        \n
+        \n<b>Coverings:</b>\n
+        \n<b>Pericardium:</b> A double-layered sac that protects the heart.\n
+        \n<b>Pericardial cavity:</b> Contains serous fluid to reduce friction.\n
+        \n
+        \n<b>B. Chambers of the Heart</b>\n
+        \n1. Right Atrium: Receives deoxygenated blood from the superior/inferior vena cava and coronary sinus.\n
+        \n2. Right Ventricle: Pumps blood to the lungs via the pulmonary artery.\n
+        \n3. Left Atrium: Receives oxygenated blood from the lungs through the pulmonary veins.\n
+        \n4. Left Ventricle: Pumps oxygenated blood into the aorta and throughout the body\n.
+        \n
+        \n<b>C. Heart Valves</b>\n
+        \nAtrioventricular Valves (AV):\n
+        \nTricuspid Valve: Right side\n
+        \nBicuspid (Mitral) Valve: Left side\n
+        \n
+        \n<b>Semilunar Valves:</b>\n
+        \n<b>Pulmonary Valve</b>: Right ventricle to pulmonary artery\n
+        \n<b>Aortic Valve:</b> Left ventricle to aorta\n
+        \n
+        \n<b>D. Layers of the Heart Wall</b>\n
+        \n1. Epicardium – outer layer\n
+        \n2. Myocardium – thick muscular layer responsible for contraction\n
+        \n3. Endocardium – inner lining of the heart chambers
+        \n
+        \n<b>III. Blood Circulation Pathways</b>\n
+        \nPulmonary Circulation\n
+        \nRight ventricle → Pulmonary artery → Lungs → Pulmonary vein → Left atrium\n
+        \n
+        \n<b>Systemic Circulation</b>\n
+        \nLeft ventricle → Aorta → Body tissues → Vena cava → Right atrium\n
+        \n
+        \n<b>Coronary Circulation</b>\n
+        \nSupplies blood to the heart muscle via coronary arteries\n.
+        \n
+        \n<b>IV. Blood Vessels</b>\n
+
+        \n<b>Types of Blood Vessels</b>\n
+        \n<b>1. Arteries:</b> Carry blood away from the heart (usually oxygenated).\n
+        \n<b>2. Veins:</b> Carry blood toward the heart (usually deoxygenated).\n
+        \n<b>3. Capillaries:</b> Microscopic vessels where gas and nutrient exchange occur.\n
+        \n
+        \n<b>Structure of Blood Vessel Walls</b>\n
+        \n1. Tunica intima – inner layer\n
+        \n 2. Tunica media – smooth muscle layer\n
+        \n3. Tunica externa (adventitia) – outer connective tissue\n
+        \n
+        \n<b>V. Electrical Conduction System</b>\n
+        \n<b>Sinoatrial (SA) Node:</b> Pacemaker of the heart; initiates heartbeat\n
+        \n<b>Atrioventricular (AV) Node:</b> Delays impulse for atrial contraction\n
+        \nBundle of His → Right and Left Bundle Branches → Purkinje Fibers\n
+        \n
+        \n<b>VI. Cardiac Cycle</b>\n
+        \n<b>Systole:</b> Contraction phase\n
+        \n<b>Diastole:</b> Relaxation phase\n
+        \nEvents include atrial systole, ventricular systole, and complete cardiac diastole.\n
+        \n
+        \n<b>VII. Heart Sounds</b>\n
+        \n<b>S1 (Lub):</b> Closure of AV valves\n
+        \n<b>S2 (Dub):</b> Closure of semilunar valves\n
+        \n
+        \n<b>VIII. Blood Pressure and Cardiac Output</b>\n
+        \nBlood Pressure = Systolic / Diastolic (Normal: ~120/80 mmHg)\n
+        \nCardiac Output (CO) = Heart Rate (HR) × Stroke Volume (SV)\n
+        \n<b>Factors affecting CO:</b> preload, afterload, contractility, and heart rate\n
+        \n
+        \n<b>IX. Regulation of the Cardiovascular System</b>\n
+        \n<b>Controlled by autonomic nervous system:</b>\n
+        \n<b>Sympathetic:</b> Increases heart rate and contractility\n
+        \n<b>Parasympathetic:</b> Decreases heart rate\n
+        \n<b>Baroreceptors:</b> Monitor blood pressure\n
+        \n<b>Chemoreceptors:</b> Monitor CO2, O2, and pH levels\n
+    </string>
+
+    <string name="SkeletalText">
+        <b>I. Overview</b>\n
+        \nThe skeletal system is the framework of the body composed of bones and cartilage.\n
+        \nIt supports the body, facilitates movement, protects internal organs, stores minerals, and houses bone marrow for blood cell production (hematopoiesis).\n
+        \n
+        \n<b>II. Functions of the Skeletal System</b>\n
+        \n1. Support – Provides structural framework.\n
+        \n2. Protection – Shields vital organs (e.g., skull protects brain, ribs protect lungs).\n
+        \n3. Movement – Bones act as levers pulled by muscles.\n
+        \n4. Mineral Storage – Stores calcium and phosphorus.\n
+        \n5. Blood Cell Production – Occurs in red bone marrow.\n
+        \n6. Fat Storage – Yellow bone marrow stores fat.\n
+        \n
+        \n<b>III. Bone Classification</b>\n
+        \n1. Long Bones – femur, humerus\n
+        \n2. Short Bones –  carpals, tarsals\n
+        \n3. Flat Bones – sternum, skull
+        \n4. Irregular Bones – vertebrae\n
+        \n5. Sesamoid Bones – patella\n
+        \n
+        \nI<b>V. Bone Structure</b>\n
+        \nDiaphysis – Shaft of a long bone\n
+        \nEpiphysis – Ends of a long bone\n
+        \nMetaphysis – Growth zone between diaphysis and epiphysis\n
+        \nPeriosteum – Outer surface membrane\n
+        \nEndosteum – Lines inner cavity\n
+        \nMedullary Cavity – Contains yellow marrow\n
+        \nCompact Bone – Dense outer layer\n
+        \nSpongy Bone (Cancellous) – Contains red marrow\n
+        \n
+        \n<b>V. Bone Cells</b>\n
+        \n1. Osteoblasts – Build bone matrix\n
+        \n2. Osteocytes – Maintain bone tissue\n
+        \n3. Osteoclasts – Break down bone\n
+        \n
+        \n<b>VI. Axial vs. Appendicular Skeleton</b>\n
+        \nAxial Skeleton (80 bones) – Skull, vertebral column, ribs, sternum\n
+        \nAppendicular Skeleton (126 bones) – Limbs and girdles (pelvic and pectoral)\n
+        \n
+        \n<b>VII. Joints (Articulations)</b>\n
+        \n<b>Classified by movement:</b>\n
+        \nImmovable (Synarthrosis) – Skull sutures\n
+        \nSlightly movable (Amphiarthrosis) – Intervertebral discs\n
+        \nFreely movable (Diarthrosis/Synovial) – Knee, shoulder\n
+        \n
+        \n<b>VIII. Common Disorders</b>\n
+        \nFractures – Break in bone\n
+        \nOsteoporosis – Low bone density\n
+        \nArthritis – Inflammation of joints\n
+        \nRckets – Vitamin D deficiency\n
+        \nScoliosis – Lateral curvature of the spine\n
+        \n
+        \n<b>IX. Bone Healing Stages</b>\n
+        \n1. Hematoma formation\n
+        \n2. Fibrocartilaginous callus\n
+        \n3. Bony callus\n
+        \n4. Bone remodeling\n
+        \n
+        \n<b>X. Bone Markings</b>\n
+        \nForamen – Hole (e.g., foramen magnum)\n
+        \nCondyle – Rounded articular projection\n
+        \nFossa – Shallow depression\n
+        \nProcess – Projection for muscle attachment\n
+        \nTuberosity – Large rounded projection\n
+    </string>
+
+    <string name="ReproductiveText">
+        <b>Functions of the Reproductive System</b>\n
+        \n<b>1. Production of Gametes:</b> Sperm in males and oocytes (eggs) in females.\n
+        \n<b>2. Fertilization:</b> Union of sperm and oocyte to form a zygote.\n
+        \n<b>3. Development and Nourishment:</b> Support of the developing fetus and nourishment post-birth.\n
+        \n<b>4. Production of Reproductive Hormones:</b> Regulate reproductive processes and secondary sexual characteristics.\n
+        \n
+        \n<b>Male Reproductive System</b>\n
+        \n<b>● Primary Organs:</b>\n
+
+        \n        <b>◦ Testes:</b> Produce sperm and testosterone.\n
+
+        \n
+        \n<b>● Duct System:</b>\n
+        \n<b>◦ Epididymis:</b> Site of sperm maturation and storage.\n
+        \n<b>◦ Vas Deferens:</b> Transports sperm to urethra.\n
+        \n<b>◦ Urethra:</b> Conveys sperm and urine to exterior.\n
+        \n
+        \n<b>● Accessory Glands:</b>\n
+        \n<b>◦ Seminal Vesicles:</b> Produce seminal fluid.\n
+        \n<b>◦ Prostate Gland:</b> Secretes fluid that nourishes sperm.\n
+        \n<b>◦ Bulbourethral Glands:</b> Secrete lubricating mucus.\n
+        \n
+        \n<b>● External Genitalia:</b>\n
+        \n<b>◦ Penis:</b> Delivers sperm into female reproductive tract.\n
+        \n<b>◦ Scrotum:</b> Houses testes and regulates temperature for optimal sperm production.\n
+        \n
+        \n<b>Female Reproductive System</b>\n
+        \n<b>● Primary Organs:</b>\n
+        \n<b>◦ Ovaries:</b> Produce oocytes and hormones (estrogen and progesterone).\n
+        \n
+        \n<b>● Duct System:</b>\n
+        \n<b>◦ Uterine (Fallopian) Tubes:</b> Transport oocyte; site of fertilization.\n
+        \n<b>◦ Uterus:</b> Site of implantation and fetal development.\n
+        \n<b>◦ Vagina:</b> Receives sperm; serves as birth canal.\n
+        \n
+        \n<b>● External Genitalia:</b>\n
+        \n<b>◦ Labia Majora and Minora, Clitoris:</b> Protect internal structures and provide sexual arousal.\n
+        \n<b>◦ Mammary Glands</b>: Produce milk to nourish infant post-birth.\n
+        \n
+        \n<b>Gametogenesis</b>\n
+        \n<b>● Spermatogenesis:</b>\n
+        \n◦ Occurs in seminiferous tubules of testes.\n
+        \n◦ Produces four viable sperm from each spermatogonium.\n
+        \n
+        \n<b>● Oogenesis:</b>\n
+        \n◦ Occurs in ovaries.\n
+        \n◦ Produces one viable oocyte and polar bodies from each oogonium.\n
+        \n
+        \n<b>Hormonal Regulation</b>\n
+        \n<b>● Males:</b>\n
+        \n<b>◦ GnRH:</b> Stimulates release of FSH and LH.\n
+        \n<b>◦ FSH:</b> Stimulates spermatogenesis.\n
+        \n<b>◦ LH:</b> Stimulates testosterone production.\n
+        \n
+        \n<b>● Females:</b>\n
+        \n<b>◦ GnRH:</b> Stimulates release of FSH and LH.\n
+        \n<b>◦ FSH:</b> Stimulates follicle development.\n
+        \n<b>◦ LH:</b> Triggers ovulation and corpus luteum formation.\n
+        \n<b>◦ Estrogen and Progesterone:</b> Regulate menstrual cycle and maintain pregnancy.\n
+    </string>
+
+    <string name="RespiratoryText">
+        <b>Functions of the Respiratory System</b>\n
+        \n<b>1. Gas Exchange:</b> Facilitates the movement of air into and out of the lungs, the exchange of gases between the air and the blood, the transport of gases in the blood, and the exchange of gases between the blood and tissues.\n
+        \n<b>2. Regulation of Blood pH:</b> Alters blood CO₂ levels to maintain acid-base balance.\n
+        \n<b>3. Voice Production:</b> Air movement past vocal cords enables speech.\n
+        \n<b>4. Olfaction:</b> Airborne molecules stimulate olfactory receptors in the nasal cavity.\n
+        \n<b>5. Protection:</b> Prevents entry of microorganisms through mucus and cilia.\n
+        \n
+        \n<b>Anatomy of the Respiratory System</b>\n
+        \n<b>● Upper Respiratory Tract:</b>\n
+        \n<b>◦ Nose and Nasal Cavity</b>: Composed of external nose and nasal cavity; contains the nasal septum dividing the cavity.\n
+        \n<b>◦ Pharynx:</b> Connects nasal cavity to larynx and esophagus.\n
+
+        \n<b>● Lower Respiratory Tract:</b>\n
+        \n<b>◦ Larynx:</b> Contains vocal cords; routes air and food into proper channels.\n
+        \n<b>◦ Trachea:</b> Windpipe that conducts air to bronchi.\n
+        \n<b>◦ Bronchi and Bronchioles:</b> Branching airways leading to alveoli.\n
+        \n<b>◦ Lungs:</b> Contain alveoli where gas exchange occurs.\n
+        \n
+        \n<b>Mechanics of Breathing</b>\n
+        \n<b>● Inspiration:</b> Diaphragm contracts, thoracic cavity volume increases, air flows into lungs.\n
+        \n<b>● Expiration:</b> Diaphragm relaxes, thoracic cavity volume decreases, air flows out.\n
+        \n<b>● Pleural Pressure:</b> Negative pressure in pleural cavity keeps lungs expanded.\n
+        \n
+        \n<b>Gas Exchange and Transport</b>\n
+        \n<b>● External Respiration:</b> Exchange of gases between alveoli and blood.\n
+        \n<b>● Internal Respiration:</b> Exchange of gases between blood and tissues.\n
+        \n<b>● Gas Transport:</b>\n
+        \n<b>◦ Oxygen:</b> Primarily transported bound to hemoglobin.\n
+        \n<b>◦ Carbon Dioxide:</b> Transported as bicarbonate ions, bound to hemoglobin, or dissolved in plasma.\n
+    </string>
+
+    <string name="MuscularText">
+        <b>Introduction</b>\n
+        \nThe muscular system is a dynamic and intricate network of tissues responsible for movement, stability, posture, and essential physiological processes in the human body.
+        Comprising over 600 muscles, this system enables everything from the subtlest facial expression to the most powerful athletic feats.
+        Muscles work in concert with the skeletal and nervous systems, responding to neural signals to produce coordinated movements, maintain body temperature, and support vital functions like circulation and digestion.
+        In Seeley’s Essentials of Anatomy and Physiology, Eleventh Edition, the muscular system is explored in detail, emphasizing its structure, function, and integration with other body systems.
+        This study guide provides a comprehensive overview of the muscular system, including its anatomy, physiology, and a detailed catalog of all major muscles in the body, categorized by region and function.
+        Whether you’re a student, educator, or enthusiast, this guide aims to deepen your understanding of how muscles drive human movement and sustain life.\n
+
+        \n<b>Overview of the Muscular System</b>\n
+        \nThe muscular system consists of three types of muscle tissue: skeletal, cardiac, and smooth.
+        Each type is specialized for specific functions, distinguished by its structure, location, and control mechanisms.\n
+
+        \n<b>Types of Muscle Tissue</b>\n
+        \n<b>1. Skeletal Muscle:</b>\n
+        \n<b>- Characteristics:</b> Voluntary, striated, multinucleated, and attached to bones via tendons.\n
+        \n<b>- Function:</b> Facilitates movement, maintains posture, and generates heat.\n
+        \n<b>- Location:</b> Found throughout the body, primarily attached to the skeleton.\n
+        \n- Skeletal muscles are under conscious control, allowing for precise movements like walking, lifting, or writing.\n
+        \n
+        \n<b>2. Cardiac Muscle:</b>\n
+        \n<b>- Characteristics:</b> Involuntary, striated, uninucleated, and branched with intercalated discs.\n
+        \n<b>- Function:</b> Powers the heart’s contractions to pump blood throughout the body.\n
+        \n<b>- Location:</b> Exclusive to the heart (myocardium).\n
+        \n- Cardiac muscle operates rhythmically and tirelessly, driven by its intrinsic pacemaker system and modulated by the autonomic nervous system.\n
+        \n
+        \n<b>3. Smooth Muscle:</b>\n
+        \n<b>- Characteristics:</b> Involuntary, non-striated, uninucleated, and spindle-shaped.\n
+        \n<b>- Function:</b> Controls involuntary movements like peristalsis, vasoconstriction, and pupil dilation.\n
+        \n<b>- Location:</b> Found in walls of internal organs (e.g., digestive tract, blood vessels, bladder).\n
+        \n- Smooth muscle contracts slowly and sustains contractions for prolonged periods without fatigue.\n
+        \n
+        \n<b>Muscle Functions</b>\n
+        \n<b>Muscles serve multiple roles beyond movement:</b>\n
+        \n<b>- Movement:</b> Skeletal muscles contract to move bones at joints, enabling locomotion and manipulation of the environment.\n
+        \n<b>- Stability and Posture:</b> Muscles maintain body position, resisting gravity to keep joints aligned.\n
+        \n<b>- Heat Production:</b> Muscle contractions generate heat, helping regulate body temperature (thermogenesis).\n
+        \n<b>- Circulation:</b> Cardiac muscle pumps blood, while smooth muscle regulates blood vessel diameter.\n
+        \n<b>- Digestion and Organ Function:</b> Smooth muscle facilitates processes like food movement through the gut and urine expulsion.\n
+        \n
+        \n<b>Muscle Properties</b>\n
+        \n<b>Muscles exhibit four key properties:</b>\n
+        \n<b>1. Excitability:</b> Ability to respond to stimuli (e.g., nerve impulses).\n
+        \n<b>2. Contractility:</b> Ability to shorten and generate force.\n
+        \n<b>3. Extensibility:</b> Ability to stretch without damage.\n
+        \n<b>4. Elasticity:</b> Ability to return to original shape after stretching or contracting.\n
+        \n
+        \n<b>Muscle Anatomy and Physiology</b>\n
+        \nMuscle Structure\n
+        \n<b>Skeletal muscles are organized hierarchically:</b>\n
+        \n<b>- Muscle (whole muscle):</b> Bundles of fascicles surrounded by epimysium (connective tissue).\n
+        \n<b>- Fascicle:</b> Bundle of muscle fibers surrounded by perimysium.\n
+        \n<b>- Muscle Fiber:</b> Single muscle cell, elongated and multinucleated, surrounded by endomysium.\n
+        \n<b>- Myofibril:</b> Rod-like organelle within a muscle fiber, containing sarcomeres.\n
+        \n<b>- Sarcomere:</b> Functional unit of muscle contraction, composed of actin (thin filaments) and myosin (thick filaments).\n
+
+        \nConnective tissues (epimysium, perimysium, endomysium) merge to form tendons or aponeuroses, anchoring muscles to bones or other structures.\n
+        \n
+        \n<b>Sliding Filament Theory</b>\n
+        \nMuscle contraction occurs via the sliding filament mechanism:\n
+        \n1. A nerve impulse triggers the release of calcium ions in the muscle fiber.\n
+        \n2. Calcium binds to troponin, exposing myosin-binding sites on actin.\n
+        \n3. Myosin heads attach to actin, forming cross-bridges.\n
+        \n4. Myosin heads pivot, pulling actin filaments toward the sarcomere’s center (power stroke).\n
+        \n5. ATP binds to myosin, detaching it from actin, and the cycle repeats as long as calcium and ATP are available.\n
+        \n6. The sarcomere shortens, contracting the muscle.\n
+        \n
+         \n<b>Energy for Muscle Contraction</b>\n
+        \nMuscles rely on ATP, sourced from:\n
+        \n<b>- Creatine Phosphate:</b> Rapidly donates phosphate to ADP, regenerating ATP.\n
+        \n<b>- Glycolysis:</b> Breaks down glucose anaerobically, producing ATP quickly but leading to lactic acid buildup.\n
+        \n<b>- Cellular Respiration:</b> Aerobic process in mitochondria, producing large amounts of ATP from glucose or fats.\n
+        \nMuscle fatigue occurs when ATP demand exceeds supply, often due to lactic acid accumulation or glycogen depletion.\n
+        \n
+        \n<b>Muscle Contraction Types</b>\n
+        \n<b>- Isotonic:</b> Muscle changes length, producing movement (e.g., lifting a weight).\n
+        \n<b>- Concentric:</b> Muscle shortens (e.g., bicep curl upward phase).\n
+        \n<b>- Eccentric:</b> Muscle lengthens under tension (e.g., lowering a weight).\n
+        \n<b>- Isometric:</b> Muscle generates tension without changing length (e.g., holding a plank).\n
+        \n
+        \n<b>Neuromuscular Junction</b>\n
+        \nThe neuromuscular junction is where motor neurons communicate with skeletal muscle fibers:\n
+        \n1. A nerve impulse triggers acetylcholine release into the synaptic cleft.\n
+        \n2. Acetylcholine binds to receptors on the muscle fiber’s sarcolemma, initiating an action potential.\n
+        \n3. The action potential spreads through T-tubules, releasing calcium from the sarcoplasmic reticulum, triggering contraction.\n
+        \n
+        \n<b>Muscle Interactions</b>\n
+        \nMuscles work in groups to produce coordinated movements:\n
+        \n<b>- Agonist (Prime Mover):</b> Primary muscle responsible for a movement (e.g., biceps brachii in elbow flexion).\n
+        \n<b>- Antagonist:</b> Opposes the agonist, relaxing to allow movement (e.g., triceps brachii in elbow flexion).\n
+        \n<b>- Synergist:</b> Assists the agonist, enhancing movement or stabilizing joints.\n
+        \n<b>- Fixator:</b> Stabilizes a bone or joint to allow the agonist to work efficiently.\n
+        \n
+        \n<b>Categorization of Muscles by Region and Function</b>\n
+        \nBelow is a detailed catalog of the major muscles in the human body, organized by anatomical region, with their functions, origins, insertions, and actions.
+        This section draws from Seeley’s Essentials of Anatomy and Physiology and standard anatomical references.\n
+        \n
+        \n<b>Muscles of the Head and Neck</b>\n
+        \nThese muscles control facial expressions, chewing, and head movements.\n
+
+        \n<b>1. Frontalis:</b>\n
+        - Function: Raises eyebrows, wrinkles forehead.\n
+        - Origin: Epicranial aponeurosis.\n
+        - Insertion: Skin of eyebrows.\n
+        - Action: Elevates eyebrows, furrows forehead skin.\n
+
+        \n<b>2. Occipitalis:</b>\n
+        - Function: Pulls scalp posteriorly.\n
+        - Origin: Occipital bone\n.
+        - Insertion: Epicranial aponeurosis.\n
+        - Action: Retracts scalp.\n
+
+        \n<b>3. Orbicularis Oculi:</b>\n
+        - Function: Closes eyes, blinking, squinting.\n
+        - Origin: Orbital rim.
+        - Insertion: Skin around eyelids.\n
+        - Action: Closes eyelids.\n
+
+        \n<b>4. Orbicularis Oris:</b>\n
+        - Function: Closes and purses lips (kissing, whistling).\n
+        - Origin: Muscles around mouth.\n
+        - Insertion: Skin of lips.\n
+        - Action: Compresses and protrudes lips.\n
+
+        \n<b>5. Zygomaticus Major/Minor:</b>\n
+        - Function: Smiling, elevates corners of mouth.\n
+        - Origin: Zygomatic bone.\n
+        - Insertion: Skin at corner of mouth.\n
+        - Action: Draws mouth upward and laterally.\n
+
+        \n<b>6. Buccinator:</b>\n
+        - Function: Compresses cheeks (chewing, blowing).\n
+        - Origin: Maxilla and mandible.\n
+        - Insertion: Orbicularis oris.\n
+        - Action: Compresses cheek against teeth.\n
+
+        \n<b>7. Masseter:</b>\n
+        - Function: Elevates mandible (chewing).\n
+        - Origin: Zygomatic arch.\n
+        - Insertion: Mandible (ramus).\n
+        - Action: Closes jaw.\n
+
+        \n<b>8. Temporalis:</b>\n
+        - Function: Elevates and retracts mandible.\n
+        - Origin: Temporal bone.\n
+        - Insertion: Coronoid process of mandible\n
+        - Action: Closes jaw, pulls mandible backward.\n
+
+        \n<b>9. Sternocleidomastoid:</b>\n
+        - Function: Rotates and flexes neck.\n
+        - Origin: Sternum, clavicle.\n
+        - Insertion: Mastoid process of temporal bone.\n
+        - Action: Flexes neck, rotates head to opposite side.\n
+
+        \n<b>10. Platysma:</b>\n
+        - Function: Depresses mandible, tenses neck skin.\n
+        - Origin: Fascia of chest and shoulder.\n
+        - Insertion: Mandible, skin of lower face.\n
+        - Action: Draws mouth downward, tightens neck skin.\n
+        \n
+        \n<b>Muscles of the Trunk (Axial Musculature)</b>\n
+        \nThese muscles stabilize the spine, support breathing, and move the trunk.\n
+
+        \n<b>1. Erector Spinae (Iliocostalis, Longissimus, Spinalis):</b>\n
+   - Function: Extends and laterally flexes vertebral column\n.
+   - Origin: Sacrum, iliac crest, vertebrae.\n
+   - Insertion: Ribs, vertebrae, skull.\n
+   - Action: Extends back, maintains posture.\n
+
+        \n<b>2. Quadratus Lumborum:</b>\n
+   - Function: Laterally flexes vertebral column, stabilizes pelvis.\n
+   - Origin: Iliac crest.\n
+   - Insertion: 12th rib, lumbar vertebrae.\n
+   - Action: Bends trunk laterally.\n
+
+        \n<b>3. External Oblique:</b>\n
+   - Function: Compresses abdomen, flexes and rotates trunk.\n
+   - Origin: Lower ribs.\n
+   - Insertion: Iliac crest, linea alba.\n
+   - Action: Rotates trunk to opposite side, compresses abdomen.\n
+
+        \n<b>4. Internal Oblique:</b>\n
+   - Function: Compresses abdomen, flexes and rotates trunk.\n
+   - Origin: Iliac crest, inguinal ligament.\n
+   - Insertion: Lower ribs, linea alba.\n
+   - Action: Rotates trunk to same side.\n
+
+        \n<b>5. Transversus Abdominis:</b>\n
+   - Function: Compresses abdomen, supports viscera.\n
+   - Origin: Iliac crest, lower ribs.\n
+   - Insertion: Linea alba, pubis.\n
+   - Action: Compresses abdominal contents.\n
+
+        \n<b>6. Rectus Abdominis:</b>\n
+   - Function: Flexes trunk, compresses abdomen.\n
+   - Origin: Pubic symphysis.\n
+   - Insertion: Xiphoid process, costal cartilages.\n
+   - Action: Flexes vertebral column (e.g., sit-ups).\n
+
+        \n<b>7. Diaphragm:</b>\n
+   - Function: Primary muscle of respiration.\n
+   - Origin: Xiphoid process, ribs, lumbar vertebrae.\n
+   - Insertion: Central tendon of diaphragm.\n
+   - Action: Contracts to increase thoracic volume for inhalation.\n
+
+        \n<b>8. Intercostals (External, Internal, Innermost):</b>\n
+   - Function: Elevate or depress ribs during breathing.\n
+   - Origin: Inferior border of rib above. \n
+   - Insertion: Superior border of rib below.  \n
+   - Action: External intercostals lift ribs (inhalation); internal depress ribs (exhalation).\n
+
+        \n
+        \n<b>Muscles of the Upper Limb</b>\n
+        \nThese muscles move the shoulder, arm, forearm, and hand.\n
+
+        \n<b>1. Trapezius:</b>\n
+   - Function: Moves and stabilizes scapula, extends neck.\n
+   - Origin: Occipital bone, cervical/thoracic vertebrae.\n
+   - Insertion: Clavicle, scapula (acromion, spine).\n
+   - Action: Elevates, retracts, or rotates scapula.\n
+
+        \n<b>2. Latissimus Dorsi:</b>\n
+   - Function: Extends, adducts, and medially rotates arm.\n
+   - Origin: Lower thoracic vertebrae, iliac crest.\n
+   - Insertion: Humerus (intertubercular groove).\n
+   - Action: Pulls arm downward and backward (e.g., swimming).\n
+
+        \n<b>3. Pectoralis Major:</b>\n
+   - Function: Flexes, adducts, and medially rotates arm.\n
+   - Origin: Clavicle, sternum, ribs.\n
+   - Insertion: Humerus (intertubercular groove).\n
+   - Action: Pulls arm across chest (e.g., hugging).\n
+
+        \n<b>4. Deltoid:</b>\n
+   - Function: Abducts, flexes, and extends arm.\n
+   - Origin: Clavicle, acromion, scapular spine.\n
+   table Insertion: Humerus (deltoid tuberosity).\n
+   - Action: Abducts arm (e.g., raising arm laterally).\n
+
+        \n<b>5. Biceps Brachii:</b>\n
+   - Function: Flexes elbow, supinates forearm.\n
+   - Origin: Scapula (coracoid process, supraglenoid tubercle).\n
+   - Insertion: Radius (radial tuberosity).\n
+   - Action: Bends elbow, rotates palm upward.\n
+
+        \n<b>6. Triceps Brachii:</b>\n
+   - Function: Extends elbow.\n
+   - Origin: Scapula, humerus.\n
+   - Insertion: Ulna (olecranon process).\n
+   - Action: Straightens elbow.\n
+
+        \n<b>7. Brachialis:</b>\n
+   - Function: Flexes elbow.\n
+   - Origin: Humerus (distal shaft).\n
+   - Insertion: Ulna (coronoid process).\n
+   - Action: Bends elbow (primary flexor).\n
+
+        \n<b>8. Flexor Carpi Radialis/Ulnaris:</b>\n
+   - Function: Flexes and abducts/adducts wrist.\n
+   - Origin: Humerus, ulna.\n
+   - Insertion: Metacarpals.\n
+   - Action: Flexes wrist, moves hand laterally or medially.\n
+
+        \n<b>9. Extensor Carpi Radialis/Ulnaris:</b>\n
+   - Function: Extends and abducts/adducts wrist.\n
+   - Origin: Humerus, ulna.\n
+   - Insertion: Metacarpals.\n
+   - Action: Extends wrist, moves hand laterally or medially.\n
+
+        \n<b>10. Flexor Digitorum Superficialis/Profundus:</b>\n
+    - Function: Flexes fingers.\n
+    - Origin: Humerus, ulna, radius.\n
+    - Insertion: Phalanges.\n
+    - Action: Bends fingers (e.g., gripping).\n
+
+        \n<b>11. Extensor Digitorum:</b>\n
+    - Function: Extends fingers.\n
+    - Origin: Humerus.\n
+    - Insertion: Phalanges.\n
+    - Action: Straightens fingers.\n
+
+        \n
+        \n<b>Muscles of the Lower Limb</b>\n
+        \nThese muscles move the hip, thigh, leg, and foot, supporting locomotion and stability.\n
+
+        \n<b>1. Iliopsoas (Psoas Major, Iliacus):</b>\n
+   - Function: Flexes hip.\n
+   - Origin: Lumbar vertebrae, iliac fossa.\n
+   - Insertion: Femur (lesser trochanter).\n
+   - Action: Raises thigh (e.g., climbing stairs).\n
+
+        \n<b>2. Gluteus Maximus:</b>\n
+   - Function: Extends and laterally rotates hip.\n
+   - Origin: Ilium, sacrum.\n
+   - Insertion: Femur (gluteal tuberosity), iliotibial tract.\n
+   - Action: Extends thigh (e.g., standing up).\n
+
+        \n<b>3. Gluteus Medius/Minimus:</b>\n
+   - Function: Abducts and medially rotates hip.\n
+   - Origin: Ilium. \n
+   - Insertion: Femur (greater trochanter).
+   - Action: Abducts thigh, stabilizes pelvis during walking.\n
+
+        \n<b>4. Adductor Group (Magnus, Longus, Brevis):</b>\n
+   - Function: Adducts and flexes thigh.\n
+   - Origin: Pubis, ischium.\n
+   - Insertion: Femur (linea aspera).\n
+   - Action: Pulls thigh inward.\n
+
+        \n<b>5. Quadriceps Femoris (Rectus Femoris, Vastus Lateralis/Medialis/Intermedius):</b>\n
+   - Function: Extends knee, flexes hip (rectus femoris only).\n
+   - Origin: Ilium, femur.\n
+   - Insertion: Tibia (via patellar ligament).\n
+   - Action: Straightens knee (e.g., kicking).\n
+
+        \n<b>6. Hamstrings (Biceps Femoris, Semitendinosus, Semimembranosus):</b>\n
+   - Function: Flexes knee, extends hip.\n
+   - Origin: Ischium, femur.\n
+   - Insertion: Tibia, fibula.\n
+   - Action: Bends knee, extends thigh backward.\n
+
+        \n<b>7. Tibialis Anterior:</b>\n
+   - Function: Dorsiflexes and inverts foot.\n
+   - Origin: Tibia.\n
+   - Insertion: Metatarsal, cuneiform.\n
+   - Action: Lifts foot upward, turns sole inward.\n
+
+        \n<b>8. Gastrocnemius:</b>\n
+   - Function: Plantarflexes foot, flexes knee.\n
+   - Origin: Femur (condyles).\n
+   - Insertion: Calcaneus (via Achilles tendon).\n
+   - Action: Points toes, bends knee.\n
+
+        \n<b>9. Soleus:</b>\n
+   - Function: Plantarflexes foot.\n
+   - Origin: Tibia, fibula.\n
+   - Insertion: Calcaneus (via Achilles tendon).\n
+   - Action: Points toes, stabilizes ankle.\n
+
+        \n<b>10. Peroneus (Fibularis) Longus/Brevis:</b>\n
+    - Function: Everts and plantarflexes foot.\n
+    - Origin: Fibula.\n
+    - Insertion: Metatarsals, cuneiform.\n
+    - Action: Turns sole outward, points toes.\n
+
+        \n
+        \n<b>Muscle Disorders and Clinical Relevance</b>\n
+        \nThe muscular system is susceptible to various disorders, as outlined in Seeley’s Essentials:\n
+        \n<b>- Muscular Dystrophy:</b> Genetic disorders causing progressive muscle weakness (e.g., Duchenne’s).\n
+        \n<b>- Myasthenia Gravis:</b> Autoimmune disease impairing neuromuscular transmission, leading to muscle fatigue.\n
+        \n<b>- Strains and Sprains:</b> Overstretching or tearing of muscles/tendons (strains) or ligaments (sprains)\n.
+        \n<b>- Cramps:</b> Involuntary, painful muscle contractions due to dehydration or electrolyte imbalances.\n
+        \n<b>- Fibromyalgia:</b> Chronic condition causing widespread muscle pain and fatigue.\n
+
+        \nTherapeutic approaches include physical therapy, medications, or surgery, depending on the condition.\n
+        \n
+        \n<b>Conclusion </b>\n
+        \nThe muscular system is a cornerstone of human anatomy, enabling movement, stability, and vital physiological processes.
+        By understanding its structure, function, and the roles of individual muscles, you gain insight into the mechanics of the human body.
+        This guide, rooted in Seeley’s Essentials of Anatomy and Physiology, Eleventh Edition, provides a thorough foundation for studying the muscular system, from its cellular mechanisms to its clinical applications.
+        Use this resource to master the complexities of muscles and their contributions to health and performance.\n
+
+    </string>
+
+    <string name="NervousText">
+
+        \n<b>I. Introduction to the Nervous System</b>\n
+        \nThe nervous system is a complex network responsible for coordinating all activities in the body.
+        It detects environmental changes, processes information, and responds to stimuli. It controls both voluntary and involuntary functions.\n
+
+        \n<b>Major Functions:</b>\n
+        \t\t\• Sensory input\n
+        \t\t\• Integration of information\n
+        \t\t\• Motor output\n
+        \t\t\• Homeostasis\n
+        \t\t\• Mental activity (e.g., learning, memory, emotions)\n
+
+        \n
+        \n<b>II. Divisions of the Nervous System</b>\n
+        \n<b>A. Central Nervous System (CNS)</b>\n
+        \t\t\<b>•Components:</b> Brain and spinal cord\n
+        \t\t\<b>•Function:</b> Integration and command center\n
+
+        \n
+        \n<b>1. Brain</b>\n
+        \n\t\t\<b>• Cerebrum</b> – Responsible for higher cognitive functions (thoughts, memory, language)\n
+        \n\t\t\<b>• Cerebellum</b> – Controls coordination, balance, and posture\n
+        \n\t\t\<b>• Brainstem (midbrain, pons, medulla oblongata)</b> – Regulates vital functions like breathing and heart rate\n
+        \n\t\t\<b>• Diencephalon (thalamus and hypothalamus)</b> – Sensory relay, homeostasis, hormonal regulation\n
+
+        \n
+        \n<b>2. Spinal Cord</b>\n
+        \n\t\t\• Pathway for nerve impulses to and from the brain\n
+        \n\t\t\• Controls reflex activities\n
+
+        \n
+        \n<b>B. Peripheral Nervous System (PNS)</b>\n
+         \n\t\t\<b>• Components:</b> Cranial nerves, spinal nerves, ganglia\n
+         \n\t\t\<b>• Function:</b> Connects CNS to limbs and organs\n
+
+        \n
+        \n<b>Subdivisions:</b>\n
+        \n<b>1. Somatic Nervous System (SNS)</b> – Voluntary control (e.g., skeletal muscle movement)\n
+        \n<b>2. Autonomic Nervous System (ANS)</b> – Involuntary control (e.g., heart, glands)\n
+
+        \n
+        \n<b>ANS Subdivisions:</b>\n
+        \n\t\t\<b>• Sympathetic</b> – “Fight or flight” (increases HR, BP)\n
+        \n\t\t\<b>• Parasympathetic</b> – “Rest and digest” (slows HR, promotes digestion)\n
+
+        \n
+        \n<b>III. Neurons and Neuroglia</b>\n
+        \n<b>A. Neurons</b>\n
+
+        \n\t\t\<b>• Function:</b> Transmit electrical impulses\n
+        \t\t\<b>• Parts:</b>\n
+        \t\t\t\t\<b>◦ Cell body (soma)</b>\n
+        \t\t\t\t\<b>◦ Dendrites</b> – Receive stimuli\n
+        \t\t\t\t\<b>◦ Axon</b> – Sends impulses away from the cell body\n
+        \t\t\t\t\<b>◦ Myelin sheath</b> – Insulates axons; increases impulse speed\n
+       \t\t\t\t\<b>◦ Nodes of Ranvier</b> – Gaps in myelin sheath\n
+        \t\t\t\t\<b>◦ Synapse</b> – Gap between neurons for signal transmission\n
+
+        \n
+        \n<b>B. Types of Neurons</b>\n
+        \n\t\t\<b>• Sensory (Afferent)</b> – Transmit impulses to CNS\n
+        \t\t\<b>• Motor (Efferent)</b> – Transmit impulses from CNS to effectors\n
+        \t\t\<b>• Interneurons</b> – Connect neurons within CNS\n
+
+        \n
+        \n<b>C. Neuroglia (Glial Cells)</b>\n
+        \n\t\t\• Support, nourish, and protect neurons\n
+        \n\t\t\• Types: Astrocytes, microglia, oligodendrocytes (CNS), Schwann cells (PNS), ependymal cells.\n
+
+        \n
+        \n<b>IV. Nerve Impulse Transmission</b>\n
+        \n<b>A. Resting Membrane Potential</b>\n
+        \n\t\t\• Polarized state: inside more negative than outside\n
+        \t\t\• Maintained by Na+/K+ pump\n
+
+        \n
+        \n<b>B. Action Potential</b>\n
+         \n\t\t\• Rapid depolarization followed by repolarization\n
+         \t\t\• Threshold stimulus causes Na+ influx\n
+         \t\t\• All-or-nothing response\n
+
+        \n
+        \n<b>C. Synaptic Transmission</b>\n
+         \n\t\t\• Neurotransmitters (e.g., acetylcholine, dopamine, serotonin) are released into the synaptic cleft\n
+         \t\t\• Bind to receptors on post-synaptic membrane to transmit impulse\n
+
+        \n
+        \n<b>V. Protective Structures of the CNS</b>\n
+        \n<b>A. Meninges</b>\n
+        \n\t\t\<b>1. Dura mater</b> – Tough outer layer\n
+        \n\t\t\<b>2. Arachnoid mater</b> – Middle layer; contains cerebrospinal fluid (CSF)\n
+        \n\t\t<b>\3. Pia mater</b> – Inner delicate membrane\n
+
+        \n
+        \n<b>B. Cerebrospinal Fluid (CSF)</b>\n
+        \n\t\t\• Clear fluid in brain and spinal cord\n
+        \n\t\t\•Cushions CNS, removes waste, circulates nutrients\n
+
+        \n
+        \n<b>C. Blood-Brain Barrier</b>\n
+        \n\t\t\• Selective permeability; protects brain from toxins and pathogens\n
+
+        \n
+        \n<b>VI. Cranial Nerves (12 Pairs)</b>\n
+
+    </string>
+
+    <string name="NervousText2">
+        <b>VII. Common Nervous System Disorders</b>\n
+        \n<b>A. Stroke (Cerebrovascular Accident)</b>\n
+        \n\t\t\• Interrupted blood flow to the brain\n
+        \n\t\t\<b>• Symptoms:</b> Sudden weakness, facial droop, speech difficulty\n
+        \n\t\t\<b>• FAST</b>: Face, Arms, Speech, Time\n
+
+        \n
+        \n<b>B. Meningitis</b>
+        \n\t\t\• Inflammation of meninges
+        \n\t\t\• Causes: bacterial, viral infections
+        \n\t\t\• Symptoms: fever, stiff neck, headache\n
+
+        \n
+        \n<b>C. Epilepsy</b>\n
+        \n\t\t\• Recurrent seizures due to abnormal brain activity\n
+
+        \n
+        \n<b>D. Multiple Sclerosis (MS)</b>\n
+        \n\t\t\• Autoimmune; demyelination of neurons
+        \n\t\t\• Leads to muscle weakness, vision problems\n
+
+        \n
+        \n<b>E. Parkinson’s Disease</b>\n
+        \n\t\t\• Degeneration of dopamine-producing neurons
+        \n\t\t\• Symptoms: tremor, rigidity, bradykinesia
+
+        \n
+        \n<b>F. Alzheimer’s Disease</b>\n
+        \n\t\t\• Progressive memory loss due to neuron degeneration\n
+
+        \n
+        \n<b>G. Amyotrophic Lateral Sclerosis (ALS)</b>\n
+        \n\t\t\• Motor neuron disease; muscle wasting\n
+
+        \n
+        \n<b>VIII. Diagnostic Tests for the Nervous System</b>\n
+        \n\t\t\<b>• CT scan / MRI</b> – Imaging of brain and spinal cord\n
+        \n\t\t\<b>• EEG (Electroencephalogram)</b> – Records electrical activity of brain\n
+        \n\t\t\<b>• Lumbar puncture</b> – Analyzes CSF\n
+        \n\t\t\<b>• Nerve conduction studies/EMG</b> – Measures electrical activity in nerves and muscles\n
+
+        \n
+        \n<b>IX. Nursing Management and Considerations</b>\n
+        \n<b>A. Neurological Assessment</b>\n
+        \n\t\t\• Level of consciousness (Glasgow Coma Scale)
+        \n\t\t\• Pupil reaction
+        \n\t\t\• Motor and sensory function
+        \n\t\t\• Vital signs
+
+        \n
+        \n<b>B. Nursing Interventions</b>\n
+        \nMonitor for signs of increased ICP (e.g., headache, vomiting, altered LOC)\n
+        \n\t\t\• Maintain safety (seizure precautions)
+        \n\t\t\• Assist with ADLs\n
+        \n\t\t\• Educate patients and families on condition, medication, lifestyle modifications\n
+
+        \n
+        \n<b>X. Summary Table: Nervous System Overview</b>\n
+</string>
+
+    <string name="EndocrineText">
+
+        <b>Overview of the Endocrine System</b>\n
+        \nThe endocrine system is a collection of glands that produce and secrete hormones directly into the bloodstream. These hormones regulate various bodily functions, including metabolism, growth and development, tissue function, sexual function, reproduction, sleep, and mood, among others.\n
+
+        \n<b>Major Endocrine Glands and Their Functions</b>\n
+        \n\t\t\t<b>1. Hypothalamus</b>\n
+        \n\t\t\t\t\◦ Located in the brain, it links the nervous system to the endocrine system via the pituitary gland.\n
+        \n\t\t\t\t\◦ Produces releasing and inhibiting hormones that control the secretion of hormones from the anterior pituitary.\n
+
+        \n
+        \n\t\t\t<b>2. Pituitary Gland (Master Gland)</b>\n
+        \n\t\t\t\t\◦ Divided into anterior and posterior lobes.\n
+        \n\t\t\t\t\<b>◦ Anterior pituitary hormones:</b>\n
+        \n\t\t\t\t\t\t\• Growth Hormone (GH): Stimulates growth of bones and tissues.\n
+        \n\t\t\t\t\t\t\• Thyroid-Stimulating Hormone (TSH): Stimulates thyroid hormone production.\n
+        \n\t\t\t\t\t\t\• Adrenocorticotropic Hormone (ACTH): Stimulates adrenal cortex to release cortisol.\n
+        \n\t\t\t\t\t\t\• Prolactin: Stimulates milk production.\n
+        \n\t\t\t\t\t\t\• Follicle-Stimulating Hormone (FSH) and Luteinizing Hormone (LH): Regulate reproductive processes.\n
+
+        \n
+        \n\t\t\t\t\<b>◦ Posterior pituitary hormones:</b>\n
+        \n\t\t\t\t\t\t\• Antidiuretic Hormone (ADH): Promotes water reabsorption by the kidneys.\n
+        \n\t\t\t\t\t\t\• Oxytocin: Stimulates uterine contractions and milk ejection.\n
+
+        \n
+        \n\t\t\t<b>3. Thyroid Gland</b>\n
+        \n\t\t\t◦ Located in the neck, it produces:\n
+        \n\t\t\t\t\t\t\• Thyroxine (T4) and Triiodothyronine (T3): Regulate metabolism.\n
+        \n\t\t\t\t\t\t\• Calcitonin: Lowers blood calcium levels.\n
+
+        \n
+        \n\t\t\t<b>4. Parathyroid Glands</b>\n
+        \n\t\t\t◦ Four small glands behind the thyroid.\n
+        \n\t\t\t◦ Produce Parathyroid Hormone (PTH): Increases blood calcium levels.\n
+
+        \n
+        \n\t\t\t<b>5. Adrenal Glands</b>\n
+        \n\t\t\t◦ Located on top of each kidney.\n
+        \n\t\t\t<b>◦ Adrenal Cortex:</b>\n
+
+        \n\t\t\t\t\t\t\• Cortisol: Regulates metabolism and stress response.\n
+        \n\t\t\t\t\t\t\• Aldosterone: Regulates sodium and potassium balance.\n
+        \n\t\t\t\t\t\t\• Androgens: Minor role in sex characteristics.\n
+
+        \n\t\t\t<b>◦ Adrenal Medulla:</b>\n
+        \n\t\t\t\t\t\t\• Epinephrine and Norepinephrine: Fight-or-flight response.\n
+
+        \n
+        \n\t\t\t<b>6. Pancreas (Islets of Langerhans)</b>\n
+        \n\t\t\t◦ Both an endocrine and exocrine gland.\n
+        \n\t\t\t◦ Produces:\n
+        \t\t\t\t\t\t\• Insulin: Lowers blood glucose.\n
+        \t\t\t\t\t\t\• Glucagon: Raises blood glucose.\n
+        \t\t\t\t\t\t\• Somatostatin: Inhibits insulin and glucagon secretion.\n
+
+         \n
+        \n\t\t\t<b>7. Pineal Gland</b>\n
+        \n\t\t\t◦ Located in the brain.\n
+        \n\t\t\t◦ Produces melatonin: Regulates sleep-wake cycle.\n
+
+        \n
+        \n\t\t\t<b>8. Gonads</b>\n
+        \n\t\t\t<b>◦ Ovaries:</b> Produce estrogen and progesterone.\n
+        \n\t\t\t<b>◦ Testes:</b> Produce testosterone.\n
+
+        \n
+        \n<b>Hormonal Feedback Mechanisms</b>\n
+        \n<b>● Negative Feedback: Most common;</b> a rise in hormone levels inhibits further release (e.g., high cortisol levels inhibit ACTH).\n
+        \n<b>● Positive Feedback:</b> Less common; the response enhances the original stimulus (e.g., oxytocin during childbirth).\n
+
+        \n
+        \n<b>Common Endocrine Disorders</b>\n
+        \n\t\t\t<b>1. Diabetes Mellitus (Type 1 and Type 2)</b>\n
+        \n\t\t\t◦ Caused by insufficient insulin production or insulin resistance.\n
+        \n\t\t\t◦ Symptoms: Polyuria, polydipsia, polyphagia, fatigue, blurred vision.\n
+        \n\t\t\t◦ Managed through insulin, oral hypoglycemics, diet, and exercise.\n
+
+        \n
+        \n\t\t\t<b>2. Hyperthyroidism (e.g., Graves\' Disease)</b>\n
+        \n\t\t\t◦ Overproduction of thyroid hormones.\n
+        \n\t\t\t◦ Symptoms: Weight loss, tachycardia, heat intolerance, exophthalmos.\n
+        \n\t\t\t◦ Treatment: Antithyroid drugs, radioactive iodine, surgery.\n
+
+        \n
+        \n\t\t\t<b>3. Hypothyroidism (e.g., Hashimoto\’s thyroiditis)</b>\n
+        \n\t\t\t◦ Underproduction of thyroid hormones.\n
+        \n\t\t\t◦ Symptoms: Fatigue, weight gain, cold intolerance, bradycardia.\n
+
+        \n\t\t\t◦ Treatment: Thyroid hormone replacement (Levothyroxine).\n
+
+        \n
+        \n\t\t\t<b>4. Cushing\’s Syndrome</b>\n
+        \n\t\t\t◦ Caused by excessive cortisol.\n
+        \n\t\t\t◦ Symptoms: Moon face, buffalo hump, hyperglycemia, muscle weakness.\n
+        \n\t\t\t◦ Treatment: Surgery, radiation, medications to control cortisol production.\n
+
+        \n
+        \n\t\t\t<b>5. Addison\’s Disease</b>\n
+        \n\t\t\t◦ Adrenal insufficiency leading to low cortisol and aldosterone.\n
+        \n\t\t\t◦ Symptoms: Weight loss, hypotension, hyperpigmentation, fatigue.\n
+        \n\t\t\t◦ Treatment: Hormone replacement therapy.\n
+
+        \n
+        \n\t\t\t<b>6. Gigantism/Acromegaly</b>\n
+
+        \n\t\t\t◦ Caused by excessive GH production (gigantism in children, acromegaly in adults).\n
+        \n\t\t\t◦ Symptoms: Enlarged hands/feet, facial features, organ enlargement.\n
+        \n\t\t\t◦ Treatment: Surgery, radiation, medications.\n
+
+
+        \n
+        \n\t\t\t<b>7. Diabetes Insipidus</b>\n
+        \n\t\t\t◦ ADH deficiency or resistance.\n
+        \n\t\t\t◦ Symptoms: Excessive urination, thirst, dehydration.\n
+        \n\t\t\t◦ Treatment: Desmopressin, fluid management.\n
+
+
+        \n
+        \n\t\t\t<b>8. Pheochromocytoma</b>\n
+
+        \n\t\t\t◦ Tumor of adrenal medulla causing excessive catecholamine release.\n
+        \n\t\t\t◦ Symptoms: Hypertension, palpitations, sweating.\n
+        \n\t\t\t◦ Treatment: Surgery, alpha and beta blockers.\n
+
+        \n
+        \n<b>Diagnostic Tests for Endocrine Disorders</b>\n
+        \n● Blood tests: Measure hormone levels (e.g., TSH, cortisol, insulin).\n
+        \n● Urinalysis: Assess hormone excretion (e.g., 24-hour urine cortisol).\n
+        \n● Imaging: MRI/CT for tumor identification.\n
+        \n● Stimulation/suppression tests: Assess gland function (e.g., ACTH stimulation test).\n
+
+        \n
+        \n<b>Nursing Management and Considerations</b>\n
+        \n<b>● Assessment:</b> Monitor vital signs, fluid and electrolyte balance, blood glucose.\n
+        \n<b>● Medication Administration:</b> Know specific drugs (e.g., insulin, levothyroxine), timing, and interactions.\n
+        \n<b>● Patient Education:</b> Disease process, self-monitoring, medication adherence, diet, exercise.\n
+        \n<b>● Care Planning:</b> Address risk for fluid imbalance, altered nutrition, activity intolerance, knowledge deficit.\n
+
+    </string>
+
+    <string name="LymphaticText">
+
+    <b>Introduction to the Lymphatic System</b>\n
+    \nThe lymphatic system is an essential part of the body\’s immune system and circulatory network. It helps maintain fluid balance, absorbs fats and fat-soluble vitamins from the digestive system, and is instrumental in protecting and defending the body against infections. The system is made up of lymphatic vessels, lymph nodes, lymphoid tissues, and organs, all working together to defend against harmful invaders like bacteria, viruses, and other pathogens.\n
+
+    \n<b>Components of the Lymphatic System</b>\n
+    \n<b>1. Lymph</b>\n
+    \nLymph is a clear, colorless fluid that circulates through the lymphatic system. It is essentially interstitial fluid that has entered lymphatic vessels. Lymph contains white blood cells, especially lymphocytes, which play a vital role in immune function. Lymphatic fluid also contains proteins, lipids, and waste products, which are drained from the tissues and transported to the lymph nodes for filtration before being returned to the bloodstream.\n
+
+    \n<b>2. Lymphatic Vessels</b>\n
+    \nLymphatic vessels are a network of thin tubes that carry lymph from tissues throughout the body to the lymph nodes and eventually back into the bloodstream. These vessels are similar to veins in the circulatory system but differ in their function and structure. They have one-way valves to ensure that lymph flows in one direction, preventing any backflow and promoting efficient drainage.\n
+
+    \nThe right lymphatic duct and the thoracic duct are the two major lymphatic ducts that return lymph to the circulatory system at the junction of the subclavian veins.\n
+
+    \n<b>3. Lymph Nodes</b>\n
+    \nLymph nodes are small, bean-shaped structures located along lymphatic vessels. They act as filters, trapping bacteria, viruses, dead cells, and other debris from the lymph. Lymph nodes are a key site for the activation of the immune system, as they contain large numbers of immune cells (e.g., lymphocytes, macrophages) that can attack and destroy pathogens.\n
+
+    \nLymph nodes are especially concentrated in areas like the neck, armpits, groin, abdomen, and chest. These nodes are often the first place where infections or cancer cells can be detected.\n
+
+    \nFunction: Lymph nodes filter out harmful microorganisms and debris from lymph and serve as the site for immune cell activation.\n
+
+    \n<b>4. Lymphoid Organs</b>\n
+    \nThe lymphoid organs include the spleen, thymus, and tonsils. These organs are critical for both the production and maturation of immune cells and the execution of immune responses.\n
+
+    \n<b>Spleen:</b>\n
+    \nThe spleen is located in the upper left side of the abdomen. It filters the blood, removes old red blood cells, and stores platelets and white blood cells. It plays a key role in immune surveillance by detecting and responding to bloodborne pathogens.\n
+
+    \nThe spleen has two main parts: the red pulp, which removes damaged or old red blood cells, and the white pulp, which contains lymphoid tissue and is involved in immune responses.\n
+
+    \n<b>Thymus:</b>\n
+    \nThe thymus is located in the chest, behind the sternum. It is where T lymphocytes (T cells) mature. These cells are essential for adaptive immunity. The thymus provides an environment where immature T cells become educated to distinguish between self and non-self antigens.\n
+
+    \n<b>Tonsils:</b>\n
+    \nThe tonsils are located at the back of the throat and are part of the body\’s first line of defense against pathogens that enter through the mouth or nose. They are composed of lymphoid tissue and help trap and filter bacteria and viruses. The palatine tonsils, pharyngeal tonsils (adenoids), and lingual tonsils are all involved in this process.\n
+
+    \n<b>5. Lymphocytes</b>\n
+    \nLymphocytes are a type of white blood cell that plays a key role in the immune system. There are three main types of lymphocytes:\n
+
+
+    \n<b>T lymphocytes (T cells):</b> These cells mature in the thymus and are primarily involved in cell-mediated immunity. They recognize and kill infected or cancerous cells.\n
+
+    \n<b>B lymphocytes (B cells):</b> These cells are involved in humoral immunity. They produce antibodies that bind to specific antigens (pathogens or toxins) and neutralize them.\n
+
+    \n<b>Natural Killer Cells (NK cells):</b> These cells play a role in recognizing and killing virus-infected and tumor cells, particularly in the early stages of infection.\n
+
+    \n<b>6. Bone Marrow</b>\n
+    \nBone marrow is the soft, spongy tissue inside bones where all blood cells, including lymphocytes, are produced. The bone marrow is responsible for the production of both T cells (which mature in the thymus) and B cells (which mature in the bone marrow itself).\n
+
+    \n<b>Functions of the Lymphatic System</b>\n
+    \n<b>Fluid Balance:</b>\n
+    \nThe lymphatic system maintains the body\'s fluid balance by collecting excess interstitial fluid (fluid that surrounds tissues) and returning it to the bloodstream. Without this function, the body would accumulate excess fluid in the tissues, leading to edema (swelling).\n
+
+
+        \n<b>Immune Response and Defense:</b>\n
+    \nThe lymphatic system is a crucial part of the immune system. It helps defend the body against infections by filtering out harmful pathogens and foreign particles from the lymph. The system also transports immune cells, which can quickly react to infections.\n
+
+    \n<b>Absorption of Fats and Fat-Soluble Vitamins:</b>\n
+    \nSpecialized lymphatic vessels in the intestines, called lacteals, absorb dietary fats and fat-soluble vitamins (A, D, E, K) from the digestive system and transport them into the bloodstream. This process is essential for the digestion and utilization of fat-soluble nutrients.\n
+
+    \n<b>Lymphatic Circulation</b>\n
+    \n<b>Lymph Flow:</b> Lymph moves through lymphatic vessels from tissues to the lymph nodes, where it is filtered, and eventually returns to the bloodstream through the right lymphatic duct and thoracic duct.\n
+
+    \nThe thoracic duct drains lymph from most of the body, including the left side of the head, neck, and chest, the left arm, and both legs. The right lymphatic duct drains the right side of the head, neck, and chest, and the right arm.\n
+
+    \n<b>Common Disorders of the Lymphatic System</b>\n
+    \n<b>Lymphedema:</b>\n
+    \nA condition characterized by the accumulation of lymph fluid in the tissues, causing swelling, typically in the arms or legs. It can result from the damage or removal of lymph nodes during surgery or due to certain diseases.\n
+
+    \n<b>Lymphadenopathy:</b>\n
+    \nSwollen or enlarged lymph nodes, which are often a response to infection, inflammation, or cancer. Swollen lymph nodes can indicate various conditions, including bacterial or viral infections, cancer, or autoimmune disorders.\n
+
+    \n<b>Lymphoma:</b>\n
+    \nA cancer of the lymphatic system. Lymphoma can be classified into two major types: Hodgkin\’s lymphoma and non-Hodgkin\’s lymphoma. Symptoms include swollen lymph nodes, fever, night sweats, and weight loss.\n
+
+    \n<b>Infections:</b>\n
+    \nThe lymphatic system is often involved in the immune response to infections. Conditions like mononucleosis, tuberculosis, and lymphadenitis (infection of the lymph nodes) can cause inflammation and swelling of lymph nodes and tissues.\n
+
+    \n<b>Elephantiasis:</b>\n
+    \nA condition caused by parasitic infections, particularly filariasis, in which lymphatic vessels become blocked, leading to severe swelling of body parts, most commonly the legs and genitalia.\n
+
+    \n<b>Splenomegaly:</b>\n
+    \nEnlargement of the spleen, often due to infection, liver disease, or blood disorders. It can lead to discomfort, pain, or a feeling of fullness in the left upper abdomen.\n
+
+    \n<b>Thymus Disorders:</b>\n
+    \nDisorders of the thymus, such as myasthenia gravis (an autoimmune disorder that weakens skeletal muscles), may result from the thymus producing abnormal antibodies or thymic tumors.\n
+
+    \n<b>Lymphatic System in Action: The Immune Response</b>\n
+    \n<b>Innate Immunity:</b>\n
+    \nThe first line of defense, which is non-specific and involves physical barriers like the skin and mucous membranes, as well as cells like macrophages and neutrophils that quickly attack and destroy pathogens.\n
+
+    \n<b>Adaptive Immunity:</b>\n
+    \nA specific immune response that involves lymphocytes (T cells and B cells). The adaptive immune system is activated when the innate immune system is overwhelmed. It can "remember" previous pathogens, providing immunity against future infections.\n
+
+    \n<b>Immune Surveillance:</b>\n
+    \nLymph nodes, spleen, and other lymphatic tissues act as surveillance sites where immune cells can detect and respond to pathogens or infected cells.\n
+
+    \n<b>Key Terms to Remember</b>\n
+    \n<b>Lymph:</b> Clear, colorless fluid that circulates through the lymphatic system and contains immune cells.\n
+    \n<b>Lymphatic Vessels:</b> Thin-walled vessels that carry lymph from tissues to lymph nodes and ultimately to the bloodstream.\n
+    \n<b>Lymph Node:</b> Small structures that filter lymph and house immune cells.\n
+    \n<b>Spleen:</b> Organ responsible for filtering blood, removing old red blood cells, and activating immune cells.\n
+    \n<b>Thymus:</b> Organ where T cells mature.\n
+    \n<b>Lymphocyte:</b> A type of white blood cell involved in the immune response.\n
+    \n<b>Lacteals:</b> Specialized lymphatic vessels in the small intestine that absorb dietary fats.\n
+
+</string>
+
+    <string name="DigestiveSystemText">
+
+    <b>Overview</b>\n
+    \nThe digestive system is the body’s specialized network responsible for breaking down food into nutrients, which it then absorbs to fuel bodily functions, while discarding indigestible waste. It is a finely tuned, multistep process that begins at the mouth and extends through several organs and accessory systems. This system is deeply integrated with other bodily functions such as the nervous, endocrine, and immune systems, ensuring that digestion is both efficient and regulated.\n
+
+    \n<b>Major Components and Their Functions</b>\n
+    \n<b>1. Mouth and Salivary Glands:</b>\n
+    \nFunction: Begins the digestion process with mechanical breakdown (chewing) and chemical digestion using salivary enzymes like amylase, which starts carbohydrate digestion.\n
+
+    \n<b>2. Pharynx and Esophagus:</b>\n
+    \nFunction: The pharynx channels food from the mouth into the esophagus—a muscular tube that employs peristalsis (a series of wave-like contractions) to transport food downward.\n
+
+    \n<b>3. Stomach:</b>\n
+    \nFunction: Acts as an acid and enzyme-producing chamber. The stomach churns food to mix it with gastric juices (like hydrochloric acid and pepsin) that both mechanically and chemically break down the food into a semi-liquid mixture called chyme.\n
+
+    \n<b>4. Small Intestine (Duodenum, Jejunum, Ileum):</b>\n
+    \nFunction: The main site of nutrient absorption. The duodenum receives bile (from the liver and stored in the gallbladder) and digestive enzymes (from the pancreas), which further digest fats, proteins, and carbohydrates. The subsequent segments (jejunum and ileum) complete the absorption of digested nutrients into the bloodstream.\n
+
+    \n<b>5. Large Intestine:</b>\n
+    \nFunction: Absorbs excess water and electrolytes from the remaining indigestible food matter, forming solid waste (feces). It also hosts a rich microbiome that plays roles in digestion, immune function, and even impacts mental well-being.\n
+
+    \n<b>6. Accessory Organs:</b>\n
+    \n<b>Liver:</b>\n
+    \nProduces bile that emulsifies fats, aids in detoxifying chemicals, and metabolizes drugs.\n
+
+    \n<b>Gallbladder:</b>\n
+    \nStores and concentrates bile, releasing it into the small intestine during digestion.\n
+
+    \n<b>Pancreas:</b>\n
+    \nProduces a host of enzymes that aid in the breakdown of proteins, carbohydrates, and fats. It also has an endocrine role in regulating blood sugar through hormones like insulin and glucagon.\n
+
+    \n<b>How the Digestive Process Works</b>\n
+    \nThe digestive process is broadly segmented into several key stages:\n
+
+    \n<b>1. Ingestion:</b>\n
+    \nFood is taken in through the mouth, where it is mechanically broken down by chewing and chemically softened by saliva.\n
+
+    \n<b>2. Propulsion:</b>\n
+    \nSwallowing and peristalsis (muscular waves) move food along the digestive tract from the esophagus into the stomach and then through the intestines.\n
+
+    \n<b>3. Mechanical Digestion:</b>\n
+    \nPhysical processes, such as mastication in the mouth and the churning action of the stomach, break food into smaller pieces to increase the surface area for enzyme activity.\n
+
+    \n<b>4. Chemical Digestion:</b>\n
+    \nA series of enzymes and digestive juices chemically decompose macromolecules like carbohydrates, proteins, and fats into smaller subunits that can be absorbed.\n
+
+    \n<b>5. Absorption:</b>\n
+    \nThe inner lining of the small intestine, with its specialized villi and microvilli, absorbs nutrients into the bloodstream or lymphatic system.\n
+
+    \n<b>6. Defecation:</b>\n
+    \nFinally, undigested food and waste products are compacted in the large intestine and expelled through the rectum and anus.\n
+
+    \n<b>Interconnections with Other Systems</b>\n
+    \nThe digestive system is not an isolated entity; it interacts closely with several other systems in the body:\n
+
+    \n<b>Nervous System:</b>\n
+    \nThe enteric nervous system (sometimes called the "second brain") directly governs the peristaltic movement and functioning of the gastrointestinal tract. Additionally, the central nervous system influences digestion through signals that regulate appetite, hunger, and satiety.\n
+
+    \n<b>Endocrine System:</b>\n
+    \nHormones such as gastrin, secretin, and cholecystokinin (CCK) play crucial roles in regulating digestive secretions and ensuring that the digestive process is coordinated with the body’s metabolic needs.\n
+
+    \n<b>Immune System:</b>\n
+    \nThe gut-associated lymphoid tissue (GALT) in the digestive tract is pivotal in defending against pathogens that enter the gut, while the intestinal microbiota supports both immune and overall health.\n
+
+    \n<b>Circulatory System:</b>\n
+    \nOnce nutrients are absorbed, the circulatory system is responsible for distributing these vital components to various cells throughout the body, ensuring that tissues are nourished and functioning optimally.\n
+
+</string>
+
+    <string name="UrinarySystemText">
+
+    <b>Overview of the Urinary System</b>\n
+    \nThe urinary system (also known as the urinary tract or excretory system) is the body’s filtration network. Its main role is to remove waste products and excess water from the bloodstream while maintaining fluid, electrolyte, and pH balance. The system also contributes to blood pressure regulation and contains mechanisms for waste excretion in the form of urine.\n
+
+    <b>Major Components and Their Functions</b>\n
+    \n<b>Kidneys:</b>\n
+    \nFunction: The kidneys are the primary organs of the urinary system. They filter blood to remove metabolic wastes (e.g., urea from protein breakdown), excess salts, and extra water. In addition, the kidneys reabsorb necessary nutrients and regulate the balance of electrolytes and acid–base homeostasis.\n
+    \nDetails: Each kidney contains millions of tiny filtering units called nephrons, where the actual filtration and reabsorption occur.\n
+
+    \n<b>Ureters:</b>\n
+    \nFunction: The ureters are narrow, muscular tubes that carry urine from each kidney to the bladder.\n
+    \nDetails: They use peristaltic waves—wave-like muscular contractions—to move urine downward despite gravity.\n
+
+    \n<b>Bladder:</b>\n
+    \nFunction: The bladder is a hollow, expandable organ that temporarily stores urine until it is ready to be eliminated from the body.\n
+    \nDetails: It has stretch receptors that signal the brain when it is full, prompting the need to void.\n
+
+    \n<b>Urethra:</b>\n
+    \nFunction: The urethra is the tube through which urine exits the body.\n
+    \nDetails: In males, the urethra is longer and passes through the penis, while in females, it is shorter and opens just above the vaginal opening.\n
+
+    <b>How the Urinary System Works</b>\n
+    \nThe urinary system works in several key stages:\n
+
+    \n<b>Filtration:</b>\n
+    \nBlood is delivered to the kidneys, where millions of nephrons filter out waste products and excess fluids.\n
+
+    \n<b>Reabsorption and Secretion:</b>\n
+    \nAs the blood is filtered, valuable substances (such as glucose and certain electrolytes) are reabsorbed as needed, while additional wastes are secreted into the urine.\n
+
+    \n<b>Urine Formation:</b>\n
+    \nThe remaining fluid, now called urine, contains wastes (like urea), salts, and water.\n
+
+    \n<b>Transport &amp; Storage:</b>\n
+    \nUrine is conveyed from the kidneys to the bladder via the ureters. The bladder stores the urine until it reaches a level of fullness.\n
+
+    \n<b>Excretion:</b>\n
+    \nWhen appropriate, urine is excreted from the body via the urethra.\n
+
+    <b>Connections Between the Urinary and Digestive Systems</b>\n
+    \nWhile the urinary and digestive systems are distinct, they are functionally interconnected:\n
+
+    \n<b>Nutrient and Waste Exchange:</b>\n
+    \nThe digestive system breaks down food into nutrients, which are absorbed by the intestines into the bloodstream. At the same time, toxins and by‐products of metabolism (such as urea from protein metabolism) become part of the blood.\n
+    \nThe urinary system then steps in to filter these wastes from the blood. In this manner, the by‐products of food digestion and metabolism are removed from the body as urine.\n
+
+    \n<b>Blood Filtration:</b>\n
+    \nAfter the digestive tract absorbs nutrients, what remains in the blood must be cleared—this is where the kidneys act as the body’s “chemical processing plant.” Inefficient digestion may increase the toxic load on the kidneys, thereby linking the health of the digestive system to that of the urinary system.\n
+
+    \n<b>Fluid and Electrolyte Balance:</b>\n
+    \nBoth systems contribute to overall homeostasis. While the digestive system absorbs water and nutrients, the urinary system reabsorbs water and electrolytes to ensure the optimal composition of the blood. This coordination is essential for maintaining blood pressure and other metabolic functions.\n
+
+    \n<b>Embryologic and Anatomical Proximity:</b>\n
+    \nIn some aspects, the development of these systems is interrelated. Although they develop from different precursor tissues, the close anatomical proximity (especially in the pelvic region) means that issues in one system can sometimes affect the other. For example, a gastrointestinal disorder that alters fluid balance might also influence urinary output.\n
+
+    <b>Summary</b>\n
+    \nThe urinary system is composed of the kidneys, ureters, bladder, and urethra. Its primary role is blood filtration—removing waste products and excess substances to form urine. In contrast, the digestive system processes food to extract nutrients and eliminate indigestible material. After the digestible components are absorbed, the kidneys filter wastes that arise from metabolism and digestion, which underscores the functional connection between these two systems. An imbalance or dysfunction in one system can have ramifications for the other, highlighting the importance of their integrated roles in overall bodily homeostasis.\n
+
+</string>
+
+    <string name="sames">
+        
+    </string>
+
+
+
+</resources>

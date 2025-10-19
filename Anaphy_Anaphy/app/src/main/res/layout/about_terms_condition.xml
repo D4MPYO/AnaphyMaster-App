@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cardview_gradient_background"
+    android:padding="16dp">
+
+    <!-- Fixed Back Button -->
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="36dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/ic_arrow_left"
+        android:contentDescription="Back" />
+
+    <!-- Scrollable Terms Content -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/backButton">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="16dp"
+                card_view:cardCornerRadius="16dp"
+                card_view:cardElevation="18dp"
+                card_view:cardBackgroundColor="#FAFAFA">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="24dp"
+                    android:background="@drawable/cardview_gradient_background">
+
+                    <!-- Image inside CardView -->
+                    <ImageView
+                        android:id="@+id/privacyImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/termcondition"
+                        android:contentDescription="Privacy Image" />
+
+                    <!-- Title -->
+                    <TextView
+                        android:id="@+id/privacyTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Terms &amp; Conditions"
+                        android:textColor="@color/white"
+                        android:layout_gravity="center"
+                        android:textSize="26sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="12dp" />
+
+                    <!-- Effective Date -->
+                    <TextView
+                        android:id="@+id/effectiveDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Effective Date: 2025"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:layout_marginBottom="12dp" />
+
+                    <!-- Terms Body -->
+                    <TextView
+                        android:id="@+id/termsBody"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="By downloading or using AnaphyMaster, you agree to the following terms:\n\n1. Educational Use Only – This app is intended as a learning tool and not a substitute for formal medical education or advice.\n\n2. User Responsibility – You are responsible for the security of your account and device.\n\n3. Intellectual Property – All content within the app is the intellectual property of AnaphyMaster developers and may not be copied or redistributed without permission.\n\n4. Prohibited Use – Users are not allowed to exploit or misuse the app in any way that violates laws or disrupts service.\n\n5. Amendments – We reserve the right to modify these terms at any time with notice through the app or official channels."
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:lineSpacingExtra="6dp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
